@@ -64,7 +64,7 @@ export default function Home() {
                   </p>
                   
                   <button className="hero-button" onClick={handleNavigateMore}>
-                    <span className="hero-button-text">XEMM THÊM</span>
+                    <span className="hero-button-text">XEM THÊM</span>
                   </button>
                 </div>
 
