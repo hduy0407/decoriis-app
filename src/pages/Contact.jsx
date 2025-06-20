@@ -4,7 +4,7 @@ import '../styles/Contact.css'
 import Header from './components/Header';
 import Footer from './components/Footer';
 
-const ContactSection = () => {
+const Contact = () => {
   const contactInfo = [
     {
       icon: <MapPin className="icon" />,
@@ -108,4 +108,4 @@ const ContactSection = () => {
   );
 };
 
-export default ContactSection;
+export default Contact;

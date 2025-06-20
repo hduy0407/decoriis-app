@@ -6,7 +6,7 @@ import More from './pages/More.jsx'
 import Design from "./pages/Design.jsx";
 import Factory from "./pages/Factory.jsx";
 import Portfolio from "./pages/Portfolio.jsx";
-import ContactSection from "./pages/Contact.jsx";
+import Contact from "./pages/Contact.jsx";
 
 function App() {
   return (
@@ -19,7 +19,7 @@ function App() {
           <Route path="/design" element={<Design />} />
           <Route path="/factory" element={<Factory />} />
           <Route path="/portfolio" element={<Portfolio />} />
-          <Route path="/contact" element={<ContactSection />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
       </Router>
     </div>
