@@ -2,7 +2,7 @@ import React from 'react';
 import { Instagram } from 'lucide-react';
 import '../../styles/PlywoodSection.css';
 import plywood1 from '../../assets/plywood1.png'
-import plywood2 from '../../assets/plywood2.jpg'
+import plywood3 from '../../assets/plywood3.jpg'
 
 const PlywoodSection = () => {
   return (
@@ -50,7 +50,7 @@ const PlywoodSection = () => {
 
                 <div className="office-image">
                   <img 
-                    src={plywood2}
+                    src={plywood3}
                     alt="Modern Kitchen"
                   />
                 </div>
