@@ -6,6 +6,7 @@ import mainkitchen from '../assets/mainkitchen.jpeg';
 import mainkitchen2 from '../assets/mainkitchen2.jpeg';
 import { useEffect, useState } from "react";
 import Footer from "./components/Footer.jsx";
+import { useNavigate } from "react-router-dom";
 
 export default function Home() {
   const [showOverlay, setShowOverlay] = useState(false);
@@ -17,6 +18,12 @@ export default function Home() {
     button: false,
     social: false
   });
+
+  const navigate = useNavigate()
+
+  const handleNavigateMore = () => {
+    navigate('/more')
+  }
 
   useEffect(() => {
     setShowOverlay(true);
@@ -56,8 +63,8 @@ export default function Home() {
                     của các nhà thiết kế, kiến trúc sư và nhà sản xuất nội thất trên toàn khu vực.
                   </p>
                   
-                  <button className="hero-button">
-                    <span className="hero-button-text">SEE MORE</span>
+                  <button className="hero-button" onClick={handleNavigateMore}>
+                    <span className="hero-button-text">XEMM THÊM</span>
                   </button>
                 </div>
 

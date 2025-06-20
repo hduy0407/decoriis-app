@@ -1,0 +1,322 @@
+.portfolio-section {
+    min-height: 100vh;
+    background: white;
+    padding: 2rem;
+  }
+  
+  .portfolio-container {
+    max-width: 80rem;
+    margin: 0 auto;
+  }
+  
+  .portfolio-header {
+    text-align: center;
+    margin-bottom: 4rem;
+  }
+  
+  .portfolio-header-logo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+  }
+  
+  .portfolio-logo-outer {
+    width: 5rem;
+    height: 5rem;
+    border: 3px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .portfolio-logo-inner {
+    width: 2.5rem;
+    height: 2.5rem;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .portfolio-logo-icon {
+    width: 1rem;
+    height: 1rem;
+  }
+  
+  .portfolio-header-title {
+    font-size: 3rem;
+    font-weight: 300;
+    color: #1a202c;
+    font-family: 'Roboto Condensed', sans-serif;
+    letter-spacing: -0.02em;
+  }
+  
+  .portfolio-header-line {
+    width: 4rem;
+    height: 0.25rem;
+    background: black;
+    margin: 1rem auto;
+  }
+  
+  .portfolio-header-subtitle {
+    font-size: 1.125rem;
+    color: #4a5568;
+    font-weight: 300;
+    max-width: 40rem;
+    margin: 0 auto;
+  }
+  
+  .portfolio-core-values {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+    gap: 2rem;
+    margin-bottom: 4rem;
+  }
+  
+  .portfolio-value-card {
+    background: #f9fafb;
+    padding: 2rem;
+    border-radius: 1rem;
+    transition: all 0.3s ease;
+  }
+  
+  .portfolio-value-card:hover {
+    background: #ffffff;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  }
+  
+  .portfolio-value-icon {
+    width: 4rem;
+    height: 4rem;
+    background: black;
+    color: white;
+    border-radius: 9999px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+  }
+  
+  .portfolio-value-title {
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: #1a202c;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-bottom: 0.5rem;
+  }
+  
+  .portfolio-value-description {
+    color: #4a5568;
+    font-weight: 300;
+  }
+  
+  .portfolio-capabilities-section {
+    background: #f9fafb;
+    padding: 3rem;
+    border-radius: 1.5rem;
+  }
+  
+  .portfolio-capabilities-header {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .portfolio-capabilities-title {
+    font-size: 2.5rem;
+    font-weight: 300;
+    color: #1a202c;
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+  
+  .portfolio-capabilities-line {
+    width: 3rem;
+    height: 0.25rem;
+    background: black;
+    margin: 1rem auto;
+  }
+  
+  .portfolio-capabilities-subtitle {
+    font-size: 1rem;
+    color: #4a5568;
+    font-weight: 300;
+  }
+  
+  .portfolio-capabilities-grid {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: 1fr;
+  }
+  
+  @media (min-width: 1024px) {
+    .portfolio-capabilities-grid {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  
+  .portfolio-capabilities-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  .portfolio-capability-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+  
+  .portfolio-capability-icon {
+    width: 2rem;
+    height: 2rem;
+    background: black;
+    border-radius: 9999px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .portfolio-check-icon {
+    color: white;
+    width: 1rem;
+    height: 1rem;
+  }
+  
+  .portfolio-capability-text {
+    color: #1a202c;
+    font-weight: 300;
+  }
+  
+  .portfolio-capabilities-image-container {
+    position: relative;
+  }
+  
+  .portfolio-capabilities-image-wrapper {
+    overflow: hidden;
+    border-radius: 1rem;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  }
+  
+  .portfolio-capabilities-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.5s ease;
+  }
+  
+  .portfolio-capabilities-image:hover {
+    transform: scale(1.05);
+  }
+  
+  .portfolio-floating-box {
+    position: absolute;
+    bottom: -1rem;
+    left: -1rem;
+    background: white;
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  }
+  
+  .portfolio-floating-content {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .portfolio-floating-icon {
+    width: 2.5rem;
+    height: 2.5rem;
+    background: black;
+    border-radius: 9999px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .portfolio-floating-arrow {
+    color: white;
+    width: 1.25rem;
+    height: 1.25rem;
+  }
+  
+  .portfolio-floating-title {
+    font-size: 0.875rem;
+    font-weight: 500;
+  }
+  
+  .portfolio-floating-subtitle {
+    font-size: 0.75rem;
+    color: #4a5568;
+  }
+  
+  .portfolio-global-reach {
+    margin-top: 4rem;
+  }
+  
+  .portfolio-global-box {
+    background: white;
+    border: 2px solid #f3f4f6;
+    padding: 3rem;
+    border-radius: 1.5rem;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+  }
+  
+  .portfolio-global-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .portfolio-global-line {
+    width: 3rem;
+    height: 0.125rem;
+    background: black;
+  }
+  
+  .portfolio-global-icon {
+    width: 2rem;
+    height: 2rem;
+    color: #1a202c;
+  }
+  
+  .portfolio-global-title {
+    font-size: 2rem;
+    font-weight: 300;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #1a202c;
+    margin-bottom: 1rem;
+  }
+  
+  .portfolio-global-description {
+    font-size: 1rem;
+    color: #4a5568;
+    font-weight: 300;
+    max-width: 40rem;
+    margin: 0 auto 1.5rem auto;
+  }
+  
+  .portfolio-global-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.75rem;
+  }
+  
+  .portfolio-global-link {
+    font-size: 0.75rem;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #1a202c;
+  }
+  
+  .portfolio-dot {
+    width: 0.5rem;
+    height: 0.5rem;
+    background: black;
+    border-radius: 9999px;
+  }
+  

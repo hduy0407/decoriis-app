@@ -72,7 +72,6 @@ html, body {
   width: 100%;
   max-width: 100%;
   margin: 0 auto;
-  margin-top: 210px;
   padding: 0 1rem;
 }
 
@@ -219,15 +218,13 @@ html, body {
 @media (min-width: 1024px) {
   .hero-section {
     background-color: #fafaf9;
-    padding-top: 70px;
     display: flex;
     align-items: center;
     padding-top: 0; /* Ensure no extra gap */
   }
 
   .hero-container {
-    padding-top: 160px; /* Reduced padding */
-    padding-bottom: 80px;
+    padding-bottom: 20px;
   }
 
   .hero-grid {
@@ -373,8 +370,8 @@ html, body {
 /* ========== Mobile Adjustments ========== */
 @media (max-width: 1023px) {
   .hero-section {
-    padding-top: 60px; /* Mobile navbar height */
-    height: 170vh;
+    
+    height: 100vh;
   }
   
   .hero-container {
@@ -414,7 +411,6 @@ html, body {
   
   /* Ensure text is visible above background */
   .hero-text {
-    top: 400px;
     position: relative;
     z-index: 3;
   }

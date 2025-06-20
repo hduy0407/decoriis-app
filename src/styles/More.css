@@ -1,0 +1,185 @@
+.more-page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+
+.more-hero {
+    flex: 1;
+    background: #fff;
+    padding-bottom: 10px;
+  }
+  
+  .more-container {
+    max-width: 80rem;
+    margin: 0 auto;
+  }
+  
+  .more-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    min-height: 100vh;
+  }
+  
+  @media (min-width: 1024px) {
+    .more-grid {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  
+  .more-image-wrapper {
+    position: relative;
+  }
+  
+  .more-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .more-content {
+    background: #fff;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5rem 4rem;
+  }
+  
+  .more-logo {
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+  }
+  
+  .more-logo-outer {
+    width: 4rem;
+    height: 4rem;
+    border: 4px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .more-logo-inner {
+    width: 2rem;
+    height: 2rem;
+    border: 2px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .more-icon-small {
+    width: 1rem;
+    height: 1rem;
+  }
+  
+  .more-website {
+    position: absolute;
+    right: 2rem;
+    top: 50%;
+    transform: translateY(-50%) rotate(-90deg);
+    transform-origin: center;
+  }
+  
+  .more-website p {
+    font-size: 0.75rem;
+    font-weight: 500;
+    letter-spacing: 0.2em;
+    color: #4b5563;
+    font-family: 'Roboto Condensed', sans-serif;
+    white-space: nowrap;
+  }
+  
+  .more-socials {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .more-social {
+    width: 2.5rem;
+    height: 2.5rem;
+    background: #000;
+    border-radius: 9999px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s;
+  }
+  
+  .more-social:hover {
+    background: #374151;
+  }
+  
+  .more-icon {
+    width: 1rem;
+    height: 1rem;
+    color: #fff;
+  }
+  
+  .more-brand {
+    margin-bottom: 2rem;
+  }
+  
+  .more-brand p {
+    font-size: 0.875rem;
+    font-weight: 500;
+    letter-spacing: 0.2em;
+    color: #4b5563;
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+  
+  .more-heading {
+    margin-bottom: 3rem;
+  }
+  
+  .more-heading h1 {
+    font-size: 3rem;
+    font-weight: 300;
+    color: #111827;
+    line-height: 1.2;
+    font-family: 'Roboto Condensed', sans-serif;
+    letter-spacing: -0.02em;
+  }
+  
+  @media (min-width: 1024px) {
+    .more-heading h1 {
+      font-size: 3.75rem;
+    }
+  }
+  
+  .more-subheading {
+    font-size: 1.125rem;
+    color: #374151;
+    font-weight: 300;
+    letter-spacing: 0.05em;
+  }
+  
+  .more-description {
+    margin-bottom: 3rem;
+    max-width: 40rem;
+  }
+  
+  .more-description p {
+    color: #374151;
+    font-size: 1rem;
+    line-height: 1.75;
+    font-weight: 300;
+  }
+  
+  .more-description .more-highlight {
+    font-weight: 500;
+  }
+  
+  .more-line {
+    position: absolute;
+    bottom: 2rem;
+    right: 4rem;
+    width: 4rem;
+    height: 2px;
+    background: #000;
+  }
+  
