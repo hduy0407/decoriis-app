@@ -27,7 +27,7 @@ const More = () => {
                     <div className="more-content">
 
                     <div className="more-website">
-                        <p>WWW.DECORIS.VN</p>
+                        <p>WWW.DECORIIS.VN</p>
                     </div>
 
                     <div className="more-socials">
@@ -38,7 +38,7 @@ const More = () => {
                     </div>
 
                     <div className="more-brand">
-                        <p>DECORIS WOODCRAFT</p>
+                        <p>DECORIIS WOODCRAFT</p>
                     </div>
 
                     <div className="more-heading">
@@ -56,7 +56,7 @@ const More = () => {
                         đại, dễ vệ sinh, sang trọng theo thời gian.
                         </p>
                         <p className="more-highlight">
-                        Decoris Woodcraft - Tỉ mỉ trong từng chi tiết, đẳng cấp trong từng thiết kế.
+                        Decoriis Woodcraft - Tỉ mỉ trong từng chi tiết, đẳng cấp trong từng thiết kế.
                         </p>
                     </div>
 
