@@ -15,13 +15,6 @@ const LaminateSection = () => {
             <image src={Logo} />
           </div>
 
-          {/* DECORIS WOODCRAFT vertical text */}
-          <div className="vertical-text">
-            <p className="vertical-text-content">
-              DECORIIS WOODCRAFT
-            </p>
-          </div>
-
           <div className="laminate-grid">
             {/* Left side */}
             <div className="laminate-left">

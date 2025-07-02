@@ -9,9 +9,6 @@ const PlywoodSection = () => {
     <section className="plywood-section">
       <div className="plywood-container">
         <div className="plywood-border">
-          {/* Logo in top right */}
-          <div className="logo-container">
-          </div>
 
           <div className="plywood-grid">
 

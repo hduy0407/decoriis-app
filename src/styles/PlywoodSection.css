@@ -1,158 +1,274 @@
 .plywood-section {
-    min-height: 100vh;
-    background: white;
+  min-height: 100vh;
+  background: white;
+  padding: 2rem;
+}
+
+.plywood-container {
+  max-width: 80rem;
+  margin: 0 auto;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.plywood-border {
+  border: 4px solid black;
+  padding: 3rem;
+  min-height: 80vh;
+  position: relative;
+  background: white;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+.logo-container {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+}
+
+.logo-outer {
+  width: 4rem;
+  height: 4rem;
+  border: 4px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-inner {
+  width: 2rem;
+  height: 2rem;
+  border: 2px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-icon {
+  width: 1rem;
+  height: 1rem;
+}
+
+.vertical-text {
+  position: absolute;
+  left: 2rem;
+  top: 50%;
+  transform: translateY(-50%) rotate(-90deg);
+  transform-origin: center;
+}
+
+.vertical-text-content {
+  font-size: 0.875rem;
+  font-weight: 500;
+  letter-spacing: 0.25em;
+  color: #1a202c;
+  font-family: 'Roboto Condensed', sans-serif;
+  white-space: nowrap;
+}
+
+.plywood-grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 2rem;
+  height: 100%;
+  width: 100%;
+}
+
+.plywood-grid > * {
+  min-width: 0;
+}
+
+.plywood-left {
+  grid-column: span 7;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  order: 1;
+}
+
+.top-image {
+  height: 20rem;
+}
+
+.top-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  max-width: 100%;
+}
+
+.bottom-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  align-items: end;
+}
+
+.bottom-text {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.decor-line {
+  width: 4rem;
+  height: 0.25rem;
+  background: black;
+}
+
+.title {
+  font-size: 3.75rem;
+  font-weight: 300;
+  color: #1a202c;
+  font-family: 'Roboto Condensed', sans-serif;
+  letter-spacing: -0.02em;
+  margin-bottom: 1rem;
+}
+
+.subtitle {
+  font-size: 1.125rem;
+  font-weight: 300;
+  color: #4a5568;
+  letter-spacing: 0.05em;
+}
+
+.website p {
+  font-size: 0.875rem;
+  font-weight: 500;
+  letter-spacing: 0.25em;
+  color: #1a202c;
+  font-family: 'Roboto Condensed', sans-serif;
+  padding-top: 2rem;
+}
+
+.office-image {
+  height: 16rem;
+}
+
+.office-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  max-width: 100%;
+}
+
+.plywood-right {
+  grid-column: span 5;
+  display: block;
+  order: 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.description {
+  max-width: 28rem;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 300;
+  color: #4a5568;
+  line-height: 1.75;
+  word-wrap: break-word;
+  padding: 0 1rem;
+  box-sizing: border-box;
+}
+
+/* ---------------------- */
+/* ✅ Responsive styles   */
+/* ---------------------- */
+
+@media (max-width: 1024px) {
+  .plywood-grid {
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+
+  .plywood-left,
+  .plywood-right {
+    grid-column: span 12;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+
+  .plywood-left {
+    order: 0;
+  }
+
+  .plywood-right {
+    order: 2;
+    display: block;
+    padding: 0 1rem;
+    margin-top: 2rem;
+  }
+
+  .bottom-section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .plywood-border {
     padding: 2rem;
   }
-  
-  .plywood-container {
-    max-width: 80rem;
+
+  .logo-container {
+    top: 1rem;
+    right: 1rem;
+  }
+
+  .title {
+    font-size: 2.5rem;
+  }
+
+  .subtitle {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .vertical-text {
+    display: none;
+  }
+
+  .plywood-border {
+    padding: 1.5rem;
+  }
+
+  .top-image {
+    height: 12rem;
+    width: 90%;
     margin: 0 auto;
   }
-  
-  .plywood-border {
-    border: 4px solid black;
-    padding: 3rem;
-    min-height: 80vh;
-    position: relative;
-  }
-  
-  .logo-container {
-    position: absolute;
-    top: 2rem;
-    right: 2rem;
-  }
-  
-  .logo-outer {
-    width: 4rem;
-    height: 4rem;
-    border: 4px solid black;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .logo-inner {
-    width: 2rem;
-    height: 2rem;
-    border: 2px solid black;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .logo-icon {
-    width: 1rem;
-    height: 1rem;
-  }
-  
-  .vertical-text {
-    position: absolute;
-    left: 2rem;
-    top: 50%;
-    transform: translateY(-50%) rotate(-90deg);
-    transform-origin: center;
-  }
-  
-  .vertical-text-content {
-    font-size: 0.875rem;
-    font-weight: 500;
-    letter-spacing: 0.25em;
-    color: #1a202c; /* gray-900 */
-    font-family: 'Roboto Condensed', sans-serif;
-    white-space: nowrap;
-  }
-  
-  .plywood-grid {
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    gap: 2rem;
-    height: 100%;
-  }
-  
-  .plywood-left {
-    grid-column: span 7;
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-  }
-  
-  .top-image {
-    height: 20rem;
-  }
-  
-  .top-image img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-  
-  .bottom-section {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 2rem;
-    align-items: end;
-  }
-  
-  .bottom-text {
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-  }
-  
-  .decor-line {
-    width: 4rem;
-    height: 0.25rem;
-    background: black;
-  }
-  
-  .title {
-    font-size: 3.75rem;
-    font-weight: 300;
-    color: #1a202c;
-    font-family: 'Roboto Condensed', sans-serif;
-    letter-spacing: -0.02em;
-    margin-bottom: 1rem;
-  }
-  
-  .subtitle {
-    font-size: 1.125rem;
-    font-weight: 300;
-    color: #4a5568; /* gray-700 */
-    letter-spacing: 0.05em;
-  }
-  
-  .website p {
-    font-size: 0.875rem;
-    font-weight: 500;
-    letter-spacing: 0.25em;
-    color: #1a202c;
-    font-family: 'Roboto Condensed', sans-serif;
-    padding-top: 2rem;
-  }
-  
+
   .office-image {
-    height: 16rem;
+    height: 12rem;
+    width: 90%;
+    margin: 0 auto;
   }
-  
-  .office-image img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+
+  .title {
+    font-size: 2rem;
   }
-  
-  .plywood-right {
-    grid-column: span 5;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+
+  .subtitle {
+    font-size: 0.95rem;
   }
-  
+
   .description {
-    max-width: 28rem;
-    text-align: center;
-    font-size: 1rem;
-    font-weight: 300;
-    color: #4a5568;
-    line-height: 1.75;
+    font-size: 0.875rem;
+    padding: 0 1rem;
   }
-  
+
+  .website p {
+    font-size: 0.75rem;
+    padding-top: 1.5rem;
+  }
+  .plywood-grid {
+    display: flex;
+    flex-direction: column;
+  }
+}

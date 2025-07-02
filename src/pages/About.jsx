@@ -51,7 +51,7 @@ const About = () => {
         </div>
 
         <div className="about-content1">
-          <div className="content-title">Tầm nhìn</div>
+          <div className="content-title">TẦM NHÌN</div>
           <div className="content-text">
             Trở thành thương hiệu dẫn đầu khu vực Việt Nam trong lĩnh vực vật liệu gỗ kỹ thuật cao, góp phần nâng tầm chất lượng
             không gian sống và làm việc thông qua những giải pháp nội thất bền vững và giàu tính thẩm mỹ.
@@ -59,7 +59,7 @@ const About = () => {
         </div>
 
         <div className="about-content2">
-          <div className="content-title">Sứ mệnh</div>
+          <div className="content-title">SỨ MỆNH</div>
           <div className="content-text">
             Cung cấp giải pháp vật liệu gỗ cao cấp, sáng tạo và bền vững cho các kiến trúc sư, nhà thiết kế và nhà sản xuất nội thất, 
             góp phần tạo nên những không gian sống và làm việc đẳng cấp quốc tế tại Việt Nam và khu vực.
@@ -68,7 +68,7 @@ const About = () => {
 
         <div className="about-cta">
           <Link to="/contact" className="cta-button">
-            Liên hệ với chúng tôi
+            LIÊN HỆ VỚI CHÚNG TÔI
             <ChevronRight size={20} />
           </Link>
           <p className="cta-subtext">

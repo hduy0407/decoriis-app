@@ -58,7 +58,7 @@ export default function Home() {
                 <div className="hero-description-box">
                   <p className="hero-description">
                     Decoriis Woodcraft là công ty chuyên sản xuất và cung cấp vật liệu gỗ plywood
-                    phủ laminate cao cấp, có trụ sở tại Singapore. Với nhiều năm kinh nghiệm trong 
+                    phủ laminate cao cấp, tiêu chuẩn Singapore. Với nhiều năm kinh nghiệm trong 
                     ngành nội thất, Decoriis Woodcraft đã khẳng định vị thế là đối tác đáng tin cậy
                     của các nhà thiết kế, kiến trúc sư và nhà sản xuất nội thất trên toàn khu vực.
                   </p>

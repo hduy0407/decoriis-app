@@ -5,6 +5,7 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import factory1 from '../assets/factory1.jpg'
 
+// cho ảnh của thợ - 
 
 const Factory = () => {
   const features = [

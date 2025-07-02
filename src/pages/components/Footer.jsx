@@ -17,7 +17,7 @@ const Footer = () => {
           <ul className="footer-contact-list">
             <li className="footer-contact-item">
               <Phone className="footer-icon" />
-              <span>(+98) 093 463 2664</span>
+              <span>(+98) 093 463 2664 <br /> (+84) 098 203 2695 </span>
             </li>
             <li className="footer-contact-item">
               <Mail className="footer-icon" />

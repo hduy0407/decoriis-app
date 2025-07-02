@@ -97,7 +97,7 @@ const Portfolio = () => {
                             </div>
                             <div>
                                 <p className="portfolio-floating-title">Singapore Standard</p>
-                                <p className="portfolio-floating-subtitle">CNC Technology</p>
+                                <p className="portfolio-floating-subtitle">Quality finishing</p>
                             </div>
                             </div>
                         </div>
