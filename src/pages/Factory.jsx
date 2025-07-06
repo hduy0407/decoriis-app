@@ -4,7 +4,7 @@ import '../styles/Factory.css';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import factory1 from '../assets/factory1.jpg'
-
+import design1 from '../assets/design1.png'
 // cho ảnh của thợ - 
 
 const Factory = () => {
@@ -92,7 +92,7 @@ const Factory = () => {
 
                         <div>
                         <img 
-                            src="https://images.pexels.com/photos/5691659/pexels-photo-5691659.jpeg?auto=compress&cs=tinysrgb&w=800" 
+                            src={design1}
                             alt="Professional Team at Work"
                             className="team-image"
                         />
