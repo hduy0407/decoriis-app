@@ -8,8 +8,8 @@ import guanChuan1 from '../../assets/portfolio/guanchuan1.png';
 import guanChuan2 from '../../assets/portfolio/guanchuan2.png';
 import guanChuan3 from '../../assets/portfolio/guanchuan3.png';
 import guanChuan4 from '../../assets/portfolio/guanchuan4.png';
-import guanChuan5 from '../../assets/portfolio/guanChuan5.png';
-import guanChuan6 from '../../assets/portfolio/guanChuan6.png';
+import guanChuan5 from '../../assets/portfolio/guanchuan5.png';
+import guanChuan6 from '../../assets/portfolio/guanchuan6.png';
 import '../../styles/OldProject.css';
 
 export default function GuanChuan() {
