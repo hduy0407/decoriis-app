@@ -82,12 +82,12 @@ const Factory = () => {
                             để tối ưu hiệu suất và giảm thiểu sai sót trong sản xuất.
                         </p>
 
-                        <div className="team-link">
-                            <div className="team-arrow">
-                            <ArrowRight className="team-arrow-icon" />
-                            </div>
-                            <span className="team-url">LIÊN HỆ CHÚNG TÔI</span>
-                        </div>
+                            <a className="team-link" href='/contact'>
+                                <div className="team-arrow">
+                                    <ArrowRight className="team-arrow-icon" />
+                                </div>
+                                <span className="team-url">LIÊN HỆ CHÚNG TÔI</span>
+                            </a>
                         </div>
 
                         <div>

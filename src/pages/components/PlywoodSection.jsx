@@ -1,8 +1,8 @@
 import React from 'react';
 import { Instagram } from 'lucide-react';
 import '../../styles/PlywoodSection.css';
-import plywood1 from '../../assets/plywood1.png'
-import plywood3 from '../../assets/plywood3.jpg'
+import design1 from '../../assets/design1.png'
+import guanChuan6 from '../../assets/portfolio/guanChuan6.png'
 
 const PlywoodSection = () => {
   return (
@@ -28,7 +28,7 @@ const PlywoodSection = () => {
             <div className="plywood-left">
               <div className="top-image">
                 <img 
-                  src={plywood1}
+                  src={design1}
                   alt="Modern Office Design"
                 />
               </div>
@@ -47,7 +47,7 @@ const PlywoodSection = () => {
 
                 <div className="office-image">
                   <img 
-                    src={plywood3}
+                    src={guanChuan6}
                     alt="Modern Kitchen"
                   />
                 </div>
