@@ -2,7 +2,7 @@ import React from 'react';
 import { Instagram } from 'lucide-react';
 import '../../styles/PlywoodSection.css';
 import design1 from '../../assets/design1.png'
-import guanChuan6 from '../../assets/portfolio/guanChuan6.png'
+import guanChuan6 from '../../assets/portfolio/guanchuan6.png'
 
 const PlywoodSection = () => {
   return (
